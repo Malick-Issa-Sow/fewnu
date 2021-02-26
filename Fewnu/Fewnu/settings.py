@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '%4@_h-q8!4eh-8z4zsyvq@(p97faa5@ls3q8c3cwqa7d7g6tc='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['fewnuweb.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -49,7 +49,7 @@ INSTALLED_APPS = [
 
 ]
 
-MIDDLEWARE = [
+sDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -128,6 +128,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+#STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_DIRS=[os.path.join(BASE_DIR, 'static')]
 
