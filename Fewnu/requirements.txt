@@ -1,7 +1,6 @@
 appdirs==1.4.4
 asgiref==3.2.10
 backcall==0.2.0
-beautifulsoup4==4.9.3
 certifi==2020.11.8
 colorama==0.4.4
 decorator==4.4.2
@@ -12,14 +11,10 @@ django-bootstrap4==2.3.1
 django-heroku==0.3.1
 django-on-heroku==1.1.2
 django-smtp-ssl==1.0
-filelock==3.0.12
 gunicorn==20.0.4
 ipython==7.18.1
 ipython-genutils==0.2.0
 jedi==0.17.2
-jupyter-core==4.6.3
-nodeenv==1.5.0
-numpy==1.19.4
 parso==0.7.1
 phonenumbers==8.12.14
 pickleshare==0.7.5
@@ -29,7 +24,6 @@ prompt-toolkit==3.0.8
 psutil==5.8.0
 psycopg2==2.8.6
 psycopg2-binary==2.8.6
-pygame==2.0.0
 Pygments==2.7.1
 pyte==0.8.0
 python-dateutil==2.8.1
@@ -39,8 +33,6 @@ six==1.15.0
 soupsieve==2.0.1
 SpeechRecognition==3.8.1
 sqlparse==0.4.1
-thefuck==3.30
-tornado==6.0.4
 traitlets==5.0.5
 virtualenv==20.1.0
 virtualenv-clone==0.5.4
